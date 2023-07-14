@@ -82,4 +82,9 @@ def main():
 
 
 if __name__ == '__main__':
+    print("NumPy version:", np.__version__)
+    print("Matplotlib version:", plt.__version__)
+    print("Streamlit version:", st.__version__)
+    print("Pillow version:", Image.__version__)
+    print("TensorFlow version:", tf.__version__)
     main()
